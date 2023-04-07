@@ -1,4 +1,4 @@
-let runned = (localStorage.getItem('runned') === true) ? true : false; 
+let runned = (localStorage.getItem('runned') === "true") ? true : false; 
 if(runned === false ){
 
     const anchor = document.currentScript.parentElement;
